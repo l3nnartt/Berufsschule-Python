@@ -19,3 +19,15 @@ if __name__ == '__main__':
 # Schreibe ein Programm, welches in der Konsole die Worte "Hello World" ausgibt.
 
 print("Hello World")
+
+
+# Aufgabe 1:
+# Schreibe ein Programm mit dem Namen Grundrechenarten, das zwei Zahlen zwischen 0 und 100 addiert,
+# subtrahiert, multipliziert und dividiert und die Ergebnisse in der Konsole ausgibt.
+# Wähle sowohl für die zwei Zahlen als auch die Ergebnisse der vier Grundrechenarten geeignete Variablen.
+
+def Grundrechenarten(a, b):
+    print("Addition: " + str(a + b))
+    print("Subtraction: " + str(a - b))
+    print("Multiplication: " + str(a * b))
+    print("Division: " + str(a / b))
