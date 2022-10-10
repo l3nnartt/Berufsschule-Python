@@ -26,8 +26,16 @@ print("Hello World")
 # subtrahiert, multipliziert und dividiert und die Ergebnisse in der Konsole ausgibt.
 # Wähle sowohl für die zwei Zahlen als auch die Ergebnisse der vier Grundrechenarten geeignete Variablen.
 
-def Grundrechenarten(a, b):
-    print("Addition: " + str(a + b))
-    print("Subtraction: " + str(a - b))
-    print("Multiplication: " + str(a * b))
-    print("Division: " + str(a / b))
+def Grundrechenarten(a, b):  # functions should be lowercase x.x
+
+    # first calculate the results
+    add = a + b
+    sub = a - b
+    mul = a * b
+    div = a / b
+
+    # then print the results
+    print("Addition: ", add)
+    print("Subtraction: ", sub)
+    print("Multiplication: ", mul)
+    print("Division: ", div)
