@@ -39,3 +39,14 @@ def Grundrechenarten(a, b):  # functions should be lowercase x.x
     print("Subtraction: ", sub)
     print("Multiplication: ", mul)
     print("Division: ", div)
+
+# Aufgabe 2:
+# Schreibe ein Programm mit dem Namen Dreieck, das aus der Länge einer Grundseite und der auf dieser Seite
+# stehenden Höhe den Flächeninhalt bestimmt. Deklariere und initialisiere jeweils eine Variable für alle drei Werte
+# und gib sie anschließend schön formatiert aus, d.h. mit Antwortsatz.
+
+def Dreieck(length, height):
+    area = height * length / 2
+    print("The area of the triangle is: ", area)
+    print("The height of the triangle is: ", height)
+    print("The length of the triangle is: ", length)
