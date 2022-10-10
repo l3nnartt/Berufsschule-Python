@@ -40,6 +40,7 @@ def Grundrechenarten(a, b):  # functions should be lowercase x.x
     print("Multiplication: ", mul)
     print("Division: ", div)
 
+
 # Aufgabe 2:
 # Schreibe ein Programm mit dem Namen Dreieck, das aus der Länge einer Grundseite und der auf dieser Seite
 # stehenden Höhe den Flächeninhalt bestimmt. Deklariere und initialisiere jeweils eine Variable für alle drei Werte
@@ -50,3 +51,22 @@ def Dreieck(length, height):
     print("The area of the triangle is: ", area)
     print("The height of the triangle is: ", height)
     print("The length of the triangle is: ", length)
+
+
+# Aufgabe 3:
+# Schreibe ein Programm mit dem Namen Tausch, das den Inhalt von zwei Variablen miteinander vertauscht.
+# Eine Variable a wird mit dem Wert 5 initialisiert und eine Variable b mit dem Wert 3.
+# Vertausch anschließend die Werte beider Variablen und gib die Werte aus.
+# Dabei muss bei a der Wert 3 und bei b der Wert 5 ausgegeben werden.
+
+def Tausch(x, y):
+    print("changing values of x and y")
+    print("Before:\n a: ", x, " b: ", y)
+    x, y = y, x
+    print("After:\n a: ", x, " b: ", y)
+
+
+a = 5
+b = 3
+
+Tausch(a, b)
