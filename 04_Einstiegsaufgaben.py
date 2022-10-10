@@ -71,6 +71,7 @@ b = 3
 
 Tausch(a, b)
 
+
 # Aufgabe 4:
 # Schreibe ein Programm mit dem Namen Niederschlag, das die durchschnittliche Niederschlagsmenge für die
 # Monate April, Mai und Juni berechnet. Deklariere und initialisiere jeweils eine Variable für jeden Monat. Berechne
@@ -88,10 +89,19 @@ def Niederschlag():
     may = 14
     june = 8
 
+    # Average in 1 Step
     average = (april + may + june) / 3
+
+    # Average in 2+ Steps
+    months = [april, may, june]
+    count = len(months)
+    i = 0
+    for month in months:
+        i += month
+    average2 = i / count
 
     print("Niederschlag im April: ", april)
     print("Niederschlag im Mai: ", may)
     print("Niederschlag im Juni: ", june)
     print("Durchschnitt 1 Schritt: ", average)
-    print("Durchschnitt 2 Schritte: ", (april + may + june) / 3)
+    print("Durchschnitt 2 Schritte: ", average2)
