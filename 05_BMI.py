@@ -10,5 +10,8 @@ if __name__ == '__main__':
 # Hinweis: Es dürfen keine Verzweigungen(if...else) verwendet werden.
 
 def bmi(height, weight):
-    bmi = weight / (height * height)
-    print("BMI: ", bmi)
+    result = weight / (height * height)
+    print("BMI: ", result)
+
+
+bmi(1.88, 64)
