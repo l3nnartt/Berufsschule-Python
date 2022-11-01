@@ -21,10 +21,15 @@ if __name__ == '__main__':
 # neunstellige natürliche Zahl. Ausgegeben wird die Prüfziffer als Zahl zwischen 0 und 10.
 
 def isbn(number):
+    number = tuple(number)
     # first calculate the results
-    result = 1 * number[0] + 2 * number[1] + 3 * number[2] + 4 * number[3] + 5 * number[4] + 6 * number[5] + 7 *\
-             number[6] + 8 * number[7] + 9 * number[8]
+    result = 1 * int(number[0]) + 2 * int(number[1]) + 3 * int(number[2]) + 4 * int(number[3]) + 5 * int(number[4]) \
+             + 6 * int(number[5]) + 7 * int(number[6]) + 8 * int(number[7]) + 9 * int(number[8])
     # then print the results
     print("The ISBN is: ", number)
     print("The result of the calculation is: ", result)
     print("The check digit is: ", result % 11)
+
+
+digit = input("ISBN: ")
+isbn(digit)
