@@ -54,7 +54,6 @@ print("### Aufgabe 3 ###")
 #
 # Die Ausgabe des Programms soll nach folgender Art erfolgen (Werte der Variablen können frei gewählt werden):
 #
-#
 # Kreditsumme in Euro: 1000
 #     Zinssatz    in    Prozent:    6
 #     Jährlicher    Rückzahlungsbetrag    in    Euro:    200
