@@ -34,3 +34,12 @@ while user_input != random_number:
 
 # Glückwunsch
 print("Glückwunsch! Sie haben die Zahl erraten!")
+
+print("### Aufgabe 2 ###")
+# Schreibe ein Programm welches die Summe der Zahlen von 1 bis 100 berechnet.
+summe = 1
+multiplier = 1
+while multiplier < 100:
+    multiplier += 1
+    summe += multiplier
+print("Die Summe der Zahlen von 1 bis 100 ist: ", summe)
