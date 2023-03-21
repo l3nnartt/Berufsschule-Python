@@ -8,6 +8,8 @@ print("### Aufgabe 1 ###")
 # Für Strings ist eine Funktion: isPalindrom(char* str1); zu implementieren.
 # Es soll zurückgegeben werden, ob ein String Palindrom ist.
 # (Palindrom sind Wörter, die vorwärts und rückwärts gelesen gleich sind, z.B.: Otto, Anna, Lagerregal, Rentner)
+
+
 def isPalindrom(inputString):
     checkString = inputString[::-1]
     if inputString == checkString:
@@ -16,5 +18,5 @@ def isPalindrom(inputString):
         return False
 
 
-string = input("Bitte geben Sie einen String ein: ")
+string = input("Bitte geben Sie einen String ein: ").lower()
 print("Ist der String ein Palindrom? ", isPalindrom(string))
