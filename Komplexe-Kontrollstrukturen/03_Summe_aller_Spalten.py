@@ -15,15 +15,14 @@ if __name__ == '__main__':
 # [12, 15, 18]
 
 liste = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+spaltensummen = []
+length = len(liste)
+length0 = len(liste[0])
 
-summe = [0, 0, 0]
-einzelsumme = 0
+for x in range(length0):
+    for y in range(length):
+        summe = summe + liste[y][x]
+    spaltensummen.append(summe)
 
-liste0 = liste[0]
-liste1 = liste[1]
-liste2 = liste[2]
-
-for i in liste0:
-    summe = summe + i
-
-summe[0] = einzelsumme
+ergebnis = spaltensummen
+print(ergebnis)
