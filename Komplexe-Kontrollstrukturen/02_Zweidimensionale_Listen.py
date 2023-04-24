@@ -15,10 +15,10 @@ if __name__ == '__main__':
 liste = [['Hund', 'Katze', 'Maus'], ['Apfel', 'Banane', 'Erdbeere'], ['Gurke', 'Tomate', 'Kartoffel']]
 counter = 0
 
-for i in liste:
-    for j in i:
-        for k in j:
-            if k.upper() == "A":
+for listElement in liste:
+    for word in listElement:
+        for char in word:
+            if char.upper() == "A":
                 counter += 1
 
 print("Der Buchstabe A kommt " + str(counter) + " mal in der vorgegeben Liste vor")
