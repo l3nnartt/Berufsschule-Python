@@ -36,7 +36,9 @@ def getNote(punkte):
 
 
 # Example:
-print(getNote(36))
+argument = 36
+print("Running getNote() with Args: ", argument)
+print("Note: ", getNote(argument))
 
 
 # Aufgabe 2:
@@ -51,7 +53,8 @@ def getGreater(a, b):
 
 
 # Example:
-getGreater(1, 2)
+print("Running getGreater() with Args: ", 1, 2)
+print("getGreater: ", getGreater(1, 2))
 
 
 # Aufgabe 3:
@@ -77,3 +80,7 @@ def mail_adressen_generator(vorname, nachname):
 
 # Example:
 print(mail_adressen_generator("Thomas", "Mann"))
+
+# Da es keine Switch-Case-Statements in Python gibt,
+# müssen wir auf if/elif/else zurückgreifen.
+# https://www.w3schools.com/python/python_conditions.asp
