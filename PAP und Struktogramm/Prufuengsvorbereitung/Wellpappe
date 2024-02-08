@@ -1,0 +1,8 @@
+launchTask(result[])
+    int i = 0
+    bool emergencyStop = getEmergencyStop()
+    setRollerDim(result[0], result[1], result[2])
+    while !emergencyStop && i < result[3]:
+        rollerStart()
+        emergencyStop = getEmergencyStop()
+        i++
